@@ -1,5 +1,5 @@
 creator = "@aykut"
-version = "1.0.0"
+version = "1.1.0"
 
 repository = "https://github.com/aykuxt/telerona"
 
