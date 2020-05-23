@@ -62,7 +62,7 @@ async def info(event):
         f"ℹ️ Version: {config.version}\n"
         f"🖋️ Creator: {config.creator}\n\n"
         f"👥 Total users: {db.get_user_count()}",
-        buttons=backcancel,
+        buttons=[[Button.url("💻 Source code", config.repository)], backcancel,],
     )
 
 

@@ -1,6 +1,8 @@
 creator = "@aykut"
 version = "1.0.0"
 
+repository = "https://github.com/aykuxt/telerona"
+
 countries = [
     {"name": "Austria", "flag": "🇦🇹"},
     {"name": "Belgium", "flag": "🇧🇪"},
