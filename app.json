@@ -1,0 +1,30 @@
+{
+    "name": "Telerona",
+    "description": "A coronavirus tracker bot for Telegram.",
+    "repository": "https://github.com/aykuxt/telerona",
+    "logo": "https://cdn.jsdelivr.net/gh/aykuxt/telerona@master/logo.png",
+    "keywords": [
+        "coronavirus",
+        "telegram",
+        "bot"
+    ],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "addons": [
+        "heroku-postgresql"
+    ],
+    "env": {
+        "API_TOKEN": {
+            "description": "Telegram API token"
+        },
+        "API_HASH": {
+            "description": "Telegram API hash"
+        },
+        "BOT_TOKEN": {
+            "description": "Telegram bot token"
+        }
+    }
+}
