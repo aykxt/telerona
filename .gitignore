@@ -127,7 +127,10 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
-   
-.vscode/*
+
+# IDEs
+.vscode/
+.idea/
+
 *.session
 *.session-journal

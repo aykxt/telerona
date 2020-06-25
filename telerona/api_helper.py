@@ -9,7 +9,7 @@ logger = logging.getLogger(__name__)
 
 
 class Api:
-    api_link = "https://corona.lmao.ninja/v2"
+    api_link = "https://disease.sh/v2"
     interval = 1800
 
     def __init__(self):
